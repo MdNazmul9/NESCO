@@ -27,7 +27,28 @@ the basic difference between Multitasking and multithreding is that multitasking
 
 # Q3: 
 What are the difference among DDL,DML and DCL?
+DDL: Data Defination Language. (Create, Alter, Drop, Truncate, Comment, Rename)
+DML: Data Manipulation Language.(Select, INsert, Update, Delete, Me rge, Call, Explain Plan, Lock Table)
+DCL: Data Control Language. (Grant, Revoke)
+TCL: Transaction Control Language. (Commit, Rollback Save point, Set Transaction)
+
 # Q6:
 Find output-
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i=1,j=1,k=1;
+    cout<<++i||++j&&++k;
+    cout<<" "<<i<<" "<<j<<" "<<k;
+
+    return 0;
+}
+
+// output
+//2 2 1 1 
+```
 # Q7:
 Name OSI layer that transmitted bit stream to frames.

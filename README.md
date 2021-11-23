@@ -52,3 +52,19 @@ int main()
 ```
 # Q7:
 Name OSI layer that transmitted bit stream to frames.
+[Shotcut]
+All people seem to need data processing
+
+7. Application Layar: Data     }
+6. Presentation Layer: Data    |
+5. Session Layer: Data         | 
+4. Transport Layer: Segment    } 
+3. Network Layer: Packet
+2. Data Link Layer:Frames
+1. Physical Layer: Bit
+
+1,2,3--> Media Layer
+4,5,6,7 --> Host Layer
+
+
+

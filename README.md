@@ -67,4 +67,13 @@ All people seem to need data processing
 4,5,6,7 --> Host Layer
 
 
-
+# Linux CMD
+# Q8:
+Creating 50 directories with 50 files inside and compress the file
+Sol:
+```
+ $ mkdir dir-{01..50}
+ $ touch dir-{01..50}/file{01..50}.txt
+ $ tar -cf archive.tar dir-{01..50}
+ 
+```

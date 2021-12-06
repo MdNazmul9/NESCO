@@ -75,5 +75,8 @@ Sol:
  $ mkdir dir-{01..50}
  $ touch dir-{01..50}/file{01..50}.txt
  $ tar -cf archive.tar dir-{01..50}
+ # unzip file
+ $ unzip myzip.zip
+ $ tar xvf filename.tar
  
 ```
